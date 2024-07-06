@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="prac.js"></script>
+  </head>
+  <body>
+    <nav class="buttons">
+      <a class="btn1 btn" href="#bad">Badlands</a>
+      <a class="btn2 btn" href="#cherry">Cherry Groves</a>
+      <a class="btn3 btn" href="#warm">Warm Ocean</a>
+      <a class="btn4 btn" href="#lush">Lush Caves</a>
+      <a class="btn5 btn" href="#warp">Warp Forest</a>
+    </nav>
+    <div class="container">
+      <section class="layer" id="bad">
+        <img
+          src="pics/badlands.jpg"
+          data-speedx="0.3"
+          data-speedy="0.38"
+          class="parallax bg-img"
+        />
+        <img
+          src="pics/blm1.png"
+          data-speedx="0.2"
+          data-speedy="0.24"
+          class="parallax blm1"
+        />
+        <img
+          src="pics/blm2.png"
+          data-speedx="0.2"
+          data-speedy="0.21"
+          class="parallax blm2"
+        />
+        <div class="profcard"></div>
+      </section>
+      <section class="layer" id="cherry">
+        <img
+          src="pics/cherrygroves.jpg"
+          data-speedx="0.3"
+          data-speedy="0.38"
+          class="parallax bg-img"
+        />
+        <img
+          src="pics/cherrytree.png"
+          data-speedx="0.2"
+          data-speedy="0.24"
+          class="parallax cherrytree"
+        />
+        <img
+          src="pics/cherrytree3.png"
+          data-speedx="0.28"
+          data-speedy="0.21"
+          class="parallax cherrytree2"
+        />
+        <div class="profcard"></div>
+      </section>
+      <section class="layer" id="warm">
+        <img
+          src="pics/warmocean.jpg"
+          data-speedx="0.3"
+          data-speedy="0.38"
+          class="parallax bg-img"
+        />
+      </section>
+      <section class="layer" id="lush">
+        <img
+          src="pics/lushcaves.jpg"
+          data-speedx="0.3"
+          data-speedy="0.38"
+          class="parallax bg-img"
+        />
+      </section>
+      <section class="layer" id="warp">
+        <img
+          src="pics/warpforest.jpg"
+          data-speedx="0.3"
+          data-speedy="0.38"
+          class="parallax bg-img"
+        />
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  </body>
+</html>
